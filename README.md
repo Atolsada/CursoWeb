@@ -1,3 +1,54 @@
 # CursoWeb
-Curso Web Mod1
-html y css
+Curso Web Mod1, html y css.
+Ejercicios del módulo 1 del curso "contrucción de página web"
+
+## Agenda
+- Dia 1: Introducción
+    - Arquitectura cliente / servidor
+    - Desarrollo y diseño web
+    - Entorno de trabajo
+        - Navegadores
+        - Editor de codigo: VSC
+        - Git / Github
+        - NodeJS / npm
+- Día 2:
+    - Uso del entorno: repositorio Git
+    - Servidores Web:
+        - Servidores genéricos: IIS, Apache
+        - Servidores de desarrollo: http-server
+    - Elementos de la Web
+        - Origen y evolución
+        - Lenguajes: HTML - CSS - JS (ES)
+        - Navegadores: estructura y funcionamiento
+- Día 3:
+    - Conceptos de Comunicaciones:
+        - Pila TCP / IP
+        - Direcciones IP y Servidores DNS
+        - Protocolo HTTP
+            - Mensajes de estao, Códigos
+            - Cabeceras
+            - Métodos GET, POST (PUT, DELETE, ...)
+-Día 4: Lenguajes de Marcado
+    - Orígenes y evolución
+        - SGML --> HTML / XML
+        - Sintaxis y semántica
+        - Etiquetas y atributos.
+        - Estructura de los documentos
+    - Inicios de HTML5
+        - Validador HTML
+        - Partes del documento
+            - DOCTYPE
+            - HTML --> head / body
+            - head
+                - Etiquetas imprencindibles
+                    - title
+                    - meta charset
+        - Atributos universales
+            - lang, id y class
+        - head
+            - Etiquetas propias: title / base
+            - Metadatos meta
+            - Enlaces (y estilos)
+                - Hojas CSS
+                - Favicon
+            - Scripts de JS
