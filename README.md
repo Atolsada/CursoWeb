@@ -28,7 +28,7 @@ Ejercicios del módulo 1 del curso "contrucción de página web"
             - Mensajes de estao, Códigos
             - Cabeceras
             - Métodos GET, POST (PUT, DELETE, ...)
--Día 4: Lenguajes de Marcado
+- Día 4: Lenguajes de Marcado
     - Orígenes y evolución
         - SGML --> HTML / XML
         - Sintaxis y semántica
