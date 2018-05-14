@@ -1,13 +1,35 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- alt+mayus+a se hace comentario -->
 <html lang="es-ES">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Sólo para Edge -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Webantigüa" content="0; url=http://webnueva.com"> <!-- por si cambias la url en un futuro y recarga la nueva -->
+    <!-- <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> versión antigua de meta charset en HTML5 -->
+    <meta name="author" content="ATolsada"> <!-- opcional -->
+    <meta name="description" content="Primera página de curso Web"> <!-- "Descripción de la web en la búsqueda de Google" -->
+    <meta name="keywords" content="web html design">
+    <meta name"generator" content="VSC">
     <title>Pestaña web :)</title>
+<!--  Los estilos pueden incluirse directamente con esta etiqueta (no suele usarse y MEJOR en ficheros aparte CSS)
+       <style>
+    h1 {color: darkorange
+        ;font-size: 4rem}
+        </style> -->
     <link rel="stylesheet" href="./css/styles_css.css">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> <!-- alt+mayus+a se hace comentario -->
-    </head>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" [para imágenes tipo .ico]-->
+    <script src="app_scripts/app.js"></script>
+    <script>
+        let saludoHead = 'Hola amigo desde el head'
+        console.log(saludoHead)
+    </script>
+</head>
 <body>
     <h1 title="Esto es el título">Hola mundo!</h1>
+    <script>
+        let saludoBody = 'Hola amigo desde el body'
+        console.log(saludoBody)
+    </script>
 </body>
 </html>
