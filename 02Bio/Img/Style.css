@@ -1,0 +1,22 @@
+h1 
+{
+    color: dodgerblue;
+    .class{}
+    #id{}
+    font-size: 2rem;
+}
+
+h2
+{
+    color: crimson;
+    .class{}
+    #id{}
+    font-size: 0,5rem
+}
+
+h3 
+{
+    color: darkorange;
+    
+    font-size: 0,5rem;
+}
