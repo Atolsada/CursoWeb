@@ -1,3 +1,22 @@
+/* Estilos básicos 170518 para aplicarse despues del reset h1 */ 
+
+h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+
+/*
+
+nav ul {
+    list-style: none; (que la lista no tenga estilo)
+}
+ */ 
+
+
+
+/* Esto de abajo es lo que ya estaba de estilso en el primer css que se hizo */
+
 h1 
 {
     color: dodgerblue;
