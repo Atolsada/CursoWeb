@@ -4,6 +4,8 @@
 
 <!-- Cambiado 170518 instalado markdown, y editadas las etiquetas por &lt; antes de cada una para que no las tome como etiquetas y "escapemos los elementos" markdawn vale para previsualizar el fichero y por ejemplo para cuando tenemos un fichero como uans intrucciones y que "se vea bien" explicado -->
 
+<!-- Markdown se usa para los readme -->
+
 ## header ## 
 <!-- pueden existir varios -->
 El elemento de HTML Header &lt;header> representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, pero también otros elementos como un logo, una sección que aglutine secciones de encabezados, una formulario de búsqueda o cosas parecidas.
