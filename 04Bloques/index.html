@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bloques HTML</title>
+    <style>
+    .separado{
+        padding-left: 5rem
+    }
+    
+    .subtitulo{
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    .footer {
+        border-top: 2px solid crimson;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .animales{
+        list-style:none
+    }
+    
+    .dialog{
+        display: none
+    }
+    
+    </style>
+
+</head>
+<body>
+    <header> <!-- Título sería Introducción al HTML. Uso de bloques en HTML (para SEO) -->
+        <h1>Introducción al HTML. 
+        <span class="subtitulo"> Uso de bloques en HTML</span></h1>
+    </header>
+
+    <header> <!-- Título sería sólo Introducción al HTML. (para SEO) -->
+            <h1>Introducción al HTML.</h1> 
+            <p class="subtitulo">Uso de bloques en HTML</p>
+    </header>
+
+    <header> <!-- Este modo está mal visto, dudoso estándar, depende de los autores -->
+        <h1>Introducción al HTML.</h1> 
+        <h2>Uso de bloques en HTML</h2>
+    </header>
+
+    <nav>
+        <hr> <!-- <hr> es una línea -->
+    </nav>
+    <main>
+        <article> 
+            <!-- añadido <pre> para que al hacer el párrafo entienda el salto de línea, se usa para código y poesía, y además respeta el estilo de fuente (respeta lo que encuentra) -->
+            <h2>Tipos de párrafos</h2>
+                <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Natus quo ab qui pariatur id veritatis et labore quod blanditiis suscipit! Vero sapiente nam in quas accusantium exercitationem aut architecto eos?</pre>
+            <p>Sint labore amet autem totam quis id dolorem fugit.<br> <!-- dentro de un <p> con <br> entiende el salto de línea y respeta espacios -->
+                Accusantium nulla rem facilis voluptatem alias at pariatur laboriosam expedita, fugiat modi quae velit ab suscipit doloribus.<br>
+                Atque itaque facilis amet?</p>
+            <p>esse <span class="separado"> </span>mollitia.</span>
+                Nam corporis dolor officiis quo veritatis distinctio porro voluptas autem corrupti vitae, modi explicabo id aut doloremque iste adipisci officia quia iure dicta totam rem repudiandae harum.</p>
+            <p>Blanditiis non nisi dignissimos quasi suscipit repellat veniam quis adipisci!
+                Fuga
+                Fit repellendus.
+                Optio molestias eveniet quia sequi repudiandae enim quo molestiae quas corrupti cum magni, nisi expedita possimus? Repellendus?</p>
+        </article>
+        <article>
+            <h2>Uso de listas</h2>
+            <h3>Animales locuelos</h3>
+            <ol class="Animales"> <!-- <ul> Sólo puede contener <li>(item) - los <ul> (elementos de lista) sólo pueden contener <li> - <ol> es lista con números -->
+                <li>Peces</li>
+                <li>Reptiles</li>
+                <li>Páharos
+                    <ul>
+                        <li>Los que vuelan</li>
+                        <li>Los que no vuelan</li>
+                    </ul>
+                </li>
+                <li>Monetes
+                    <ul>
+                        <li>monosos</li>
+                        <li>los que no</li>
+                    </ul>
+                </li>
+            </ol>
+            <h3>Definiciones</h3>
+            <dl> <!-- en <dl> tenemos <dt> (termino) <dd> (definicion) -->
+                <dt>Pues que vuelan</dt>
+                <dd>pio, pio</dd>
+                <dt>Pues que nadan</dt>
+                <dd>splash!</dd>
+                <dt>Pues que escalan</dt>
+                <dd>¡maldito mono, baja de ahí!</dd>
+            </dl>
+        </article>
+
+        <article>
+                <h3>Desplegables</h3>
+                <Details>
+                    <summary>Diseño Web</summary> <!-- El título que quieres que se muestre siempre -->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto eveniet soluta at, aut, sequi quaerat ullam accusamus provident vitae cumque, ducimus fugit! Modi nihil cumque repellendus corporis ratione dignissimos delectus.</p>
+                </Details>
+                <div class="dialog"> <!-- No me funciona, ver en archivo prof, lo ha cambiado por open no se por qué -->
+                    <p>Información extra</p>
+                    <button>Cerrar</button>
+                </div>
+        </article>
+
+    </main>
+    <aside></aside>
+    <footer class="footer">
+        <address>
+            Atolsada - correo@correo.com
+        </address>
+        <p>&copy; PapayaTeam - 2018 </p>
+    </footer>
+    
+</body>
+</html>
