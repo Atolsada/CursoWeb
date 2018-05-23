@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        [class="titulo"] /* su símil y que se sua ahora es .titulo */
+        .titulo{
+            color:brown;
+        }
+        [itemprop="titulo"]{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Bibliografía
+        </h1>
+    </header>
+    <article>
+        <ul> <!-- ctrl+d para hacer multiselección -->
+            <li class="titulo">El Señor de los Anillos</li>
+            <li class="tit_orig">The Lord of the Rings</li>
+            <li class="fecha_orig">1954</li>
+            <li class="autor">J. R. R. Tolkien</li>
+            <li class="edit_esp">Minotauro</li>
+            <li class="fecha_esp">1980</li>
+            <li class="descrip">Novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien.</li>
+        </ul> 
+        <ul itemscope itemtype="http:schema.org/libro http:miempresa.org/libro" itemid="2"> <!-- http de ejemplo provablemente no exista, va el indexador a ese link, pilla la "lista" que es el dtd y sigue indexando para ver que está todo bien y lo entiende -->
+            <li itemprop="titulo">El Hobbit</li>
+            <li itemprop="tit_orig">The Hobbit, or There and Back Again</li>
+            <li itemprop="fecha_orig">1937</li>
+            <li itemprop="autor">J. R. R. Tolkien</li>
+            <li itemprop="edit_esp">Minotauro</li>
+            <li itemprop="fecha_esp">1980</li>
+            <li itemprop="descrip">Novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien.</li>
+        </ul> 
+        <ul itemscope="book" itemtype="http://schema.org/Book" itemid="2"> <!-- itemid="2" libro número 2 -->
+            <li itemprop="name">The Hobbit, or There and Back Again</li>
+            <li itemprop="translationOfWork">
+                El Hobbit</li>
+            <li itemprop="fecha_orig">1937</li>
+            <li itemprop="author">
+                <span itemtype="http://schema.org/Book">
+                    <span itemprop="givenName">
+                            J. R. R.
+                    </span>
+                    <span>
+                            Tolkien
+                    </span>
+                </span>
+            </li>
+            <li itemprop="edit_esp">Minotauro</li>
+            <li itemprop="fecha_esp">1980</li>
+            <li itemprop="descrip">Novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien.</li>
+        </ul> 
+    </article>
+    <footer>
+        <address>
+            <div id="hcard-Toni-Tolsada-García" class="vcard"> <!-- A partir de aquí es copia del hCard de Microformats, http://microformats.org/code/hcard/creator -->
+                <span class="fn n">
+                   <span class="given-name">Toni</span>
+                 <span class="additional-name">Tolsada</span>
+                 <span class="family-name">García</span>
+               </span>
+            <div class="org">CacahueteTeam en Getafe</div>
+            <div class="adr">
+            <div class="street-address">CalleFalsa123</div>
+                 <span class="locality">Fuenla</span>
+               , 
+                 <span class="region">Madrid</span>
+               , 
+                 <span class="postal-code">28888</span>               
+            </div>
+        </address>
+        <p><small>&copy;</small>CacahueteTeam</p>
+    </footer>
+</body>
+</html>
