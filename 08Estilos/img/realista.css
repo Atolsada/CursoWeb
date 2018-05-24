@@ -1,0 +1,39 @@
+body{
+    background-color: bisque 
+}
+footer p{ /* para anidar y decir que todos los P en footer le afecte eso y no a todos los P */
+    margin-top: 0;  /* esta forma de hacerlo es para cuando no se puede usar class [selector descendiente] */
+    margin-bottom: 0; /* si ponemos footer>p sería hijo de ">", y no descendiente que es " " (un espacio)*/
+    background-color: brown /* Ser hijo es más restictivo que ser descendiente */
+}
+main p{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 15%; /* Con este width y float hacemos columnas royo periódico */
+    float: left;
+    margin-right: 2rem;
+}
+main p:first-child{ /* Esto es para que afecte sólo al primer párrafo de la izquierda y que no esté pegado a la página */
+    margin-left: 2rem;
+}
+main h2~p{  /* "Cualquier hermano" */ /* sale apretando altgr+4 */
+    background-color: aquamarine
+} 
+main h2+p{ /* Cualquier hermano adyacente */
+    background-color: crimson
+} 
+
+footer{
+    clear: both; /* Para que el footer esté debajo */
+}
+nav ul{ /* Que afecte al menú del nav */ 
+    list-style: none;
+}
+nav li {
+    display: inline-block
+}
+nav a { /* nav>ul>li>a a esto se le llama sobreanidamiento, por que no hace falta poner todo esto en este caso para que funcione */
+    text-decoration: none;
+    color: maroon;
+    padding: 2rem;
+}
