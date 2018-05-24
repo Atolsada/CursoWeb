@@ -1,6 +1,14 @@
-h3{
-    color: blue
+.art1 h3{ /* Con esto le digo que todos los h3 dentro (descendientes) de art1 sean azules */
+    color: blue;
 }
-.verde{
+p.verde{ /* Esto es que sea tipo párrafo y clase verde al mismo tiempo */
     color: lime
+}
+h2.verde{ /* esto se aplica a cualquier h2 con atributo verde */
+    color: darkgreen
+}
+h3, .verde { /* con esto estamos juntando selectores con las mismas propiedades */ /* la "," significa "y" */
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 900; /*900 es lo mismo que BOLD */
 }
