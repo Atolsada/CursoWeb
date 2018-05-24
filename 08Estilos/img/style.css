@@ -1,3 +1,6 @@
-        @import "extras.css";
+        @import "extras.css"; /* se pone siempre en la primera línea o no funciona, además el orden de llamada es del último, en este caso extras y después este .css, hay qeu tenerlo en cuenta ya que siempre se llama en "escalada" */
         body{
             background-color:aquamarine}
+        p{
+            font-size: 1.5rem
+        }
