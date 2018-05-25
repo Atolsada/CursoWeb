@@ -17,11 +17,18 @@ main p:first-child{ /* Esto es para que afecte sólo al primer párrafo de la iz
     margin-left: 2rem;
 }
 main h2~p{  /* "Cualquier hermano" */ /* sale apretando altgr+4 */
-    background-color: aquamarine
+    background-color: aquamarine;
 } 
 main h2+p{ /* Cualquier hermano adyacente */
-    background-color: crimson
+    background-color: crimson;
 } 
+main [data-autor]{ /* cualquier elemento dentro de main con atributo data-autor tendrá ese color */
+    background-color: darkslateblue; /* los atributos irán con corchetes cuadrados [ ] */
+}
+main [data-autor=ejemplo2]{ /* Se pueden poner el atributo entero para que sea más especifico y así sería como un "class" */
+    background-color: lightseagreen; 
+}
+/* AQUÍ FALTA EL EJEMPLO DE <p class="azul" title="ejemplo3"> HAY QUE MIRAR EL DE PROFESOR */
 
 footer{
     clear: both; /* Para que el footer esté debajo */

@@ -12,3 +12,11 @@ h3, .verde { /* con esto estamos juntando selectores con las mismas propiedades 
     font-style: italic;
     font-weight: 900; /*900 es lo mismo que BOLD */
 }
+/* Cuando hay espacios "se lee" de derecha a izquierda.
+por ejemplo:
+main p [title="Virgilio"] {blabla} 
+es: todo lo que tiene title=Virgilio, DENTRO DE UN PÁRRAFO. No, los parrafos con title Virgilio  */
+
+/* Siempre heredas un estilo, valor al no ser que tengas uno propio */
+
+/* Entre mismos selectores, elementos (h2,verde.etc) predomina el más específico y despues el de más abajo ya que es en cascada */
