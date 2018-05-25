@@ -35,8 +35,15 @@ section.parte1 blockquote::before{
 section.parte1 blockquote::after{
     content: close-quote;
 }
+section.parte1 p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* parte 2 */
+section.parte2. p:nth-of-type(1)::first-letter{ /* idk what im doing because i dont see nothing Jon Snow*/
+    font-size: 2rem;
+}
 
 /* section.parte2 p{ [se aplica sólo a los p de la parte 2]
     color: chocolate;
