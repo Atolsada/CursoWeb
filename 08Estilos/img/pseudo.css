@@ -1,0 +1,52 @@
+.boton{
+    width: 10rem;
+    /* height: 10rem; */
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+div.boton:hover{ /* Algo que le va a pasar de la clase boton cuando tenga el cursor encima, las pseudoclases van entre (:) */
+    color: crimson; /* cuando llegues a esta situación aplica el css, vale con cualquier cosa, div, class, cualquier etiqueta, CUALQUIER SELECTOR MÁS BIEN, se le puede aplicar */
+}
+div.boton::first-letter{ /* hacemos la primera letra lo que metamos entre corchetes */
+    font-size: 2rem;
+}
+
+/* !!!AÑADIDO section.parte1 PARA CUANDO EMPECEMOS CON AL 2DA PARTE NO ELIMINEMOS LA PRIMERA Y ASÍ TENEMOS LOS DOS EJEMPLOS!!! */
+/* (:) seudo clases (::) pseudoelementos */
+
+section.parte1 p::first-line{ /* Pone azul la primera linea, OJO CON EL MODO VENTANA */
+    color: darkblue;
+}
+section.parte1 p::first-letter{ /* hacemos la primera letra lo que metamos entre corchetes */
+    font-size: 2rem;
+}
+/* p::before{ [Se puede hacer pero no es muy recomendable, aparecería antes de <p>, Ciceron dijo]
+    content: "Ciceron dijo: "
+} */
+
+section.parte1 blockquote{
+    quotes: '\00AB' '\00BB' '\201E' '\201C';
+}
+section.parte1 blockquote::before{
+    content: url("./HolaMundoImagen.png"); /* <--la imagen no se ve y si ponemos open-quote aquí arriba las comillas desaparecen :S */
+    content: open-quote;
+}
+section.parte1 blockquote::after{
+    content: close-quote;
+}
+
+/* parte 2 */
+
+/* section.parte2 p{ [se aplica sólo a los p de la parte 2]
+    color: chocolate;
+} */
+section.parte2 p:nth-child(3){ /* quiero que seas el hijo de X, en este caso el hijo 2 */
+    color: chocolate;
+}
+/* section.parte2 p:nth-of-type(1){ me especificas cual hijo quieres
+    color: firebrick;
+} */
+section.parte2 p:nth-of-type(1){
+    color: firebrick;
+}

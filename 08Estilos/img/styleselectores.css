@@ -1,10 +1,10 @@
 .art1 h3{ /* Con esto le digo que todos los h3 dentro (descendientes) de art1 sean azules */
     color: blue;
 }
-p.verde{ /* Esto es que sea tipo párrafo y clase verde al mismo tiempo */
+p.verde{ /* Esto es que sea tipo párrafo y clase verde al mismo tiempo, .verde es "la especificidad" */
     color: lime
 }
-h2.verde{ /* esto se aplica a cualquier h2 con atributo verde */
+h2.verde{ /* esto se aplica a cualquier h2 con atributo verde, "aquellos h2 de clase verde" */
     color: darkgreen
 }
 h3, .verde { /* con esto estamos juntando selectores con las mismas propiedades */ /* la "," significa "y" */
