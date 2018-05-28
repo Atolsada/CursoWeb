@@ -63,13 +63,6 @@ header{
  background-color: goldenrod
 }
 
-#menusup{
-    padding: 0.2rem; 
-    margin: 1.2%;
-    float: inherit;
-    border: 1px;
-}
-
 h1{
     color:blue;
     padding: 1rem;  
