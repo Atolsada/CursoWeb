@@ -1,0 +1,16 @@
+:root { /* raiz, de este modo si cambiamos el color sólo lo cambiamos aquí y no en los 3000 sitios donde esté puesto nuestro color en la web */
+    --color-primary:cornflowerblue;
+    --color-secundary:darkblue;
+    --aire-basico:1rem;
+}
+
+
+
+header {
+    background-color: var(--color-primary);
+    color:var(--color-secundary);
+}
+
+header h1{
+    padding: calc(var(--aire-basico)*2); /* calc llamamos a variable [airebasico] y multiplicamos por 2 */
+}

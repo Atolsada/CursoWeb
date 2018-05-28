@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    padding: 1rem;
+    margin: 1rem;
+    width: 40%;
+    border: 0.1rem solid;
+    background-color: cadetblue;
+} /* 0.1rem es 1.6 pixeles aprox */
+
+span{
+    border: 0.1rem solid;
+    margin: 1rem; /* [Sólo afecta en línea no empuja en vertical pero si existe]  */   
+    padding: 1rem; /* [Si afecta el empuje en los 4 puntos] */
+    background-color: brown;
+}
