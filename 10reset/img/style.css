@@ -1,0 +1,28 @@
+/* Normalización */
+
+body{
+    margin: 2%;
+    background-color: bisque ;
+}
+
+header{
+ background-color: goldenrod
+}
+
+h1{
+    color:blue;
+    padding: 1rem;  
+    font-size: 2rem;
+    background-color: coral;
+}
+h2{
+    color: crimson;
+    padding: 1rem;  
+    font-size: 1.2rem;
+}
+
+p, ul{
+    padding: 0.2rem; 
+    margin: 1.2%;
+}
+
