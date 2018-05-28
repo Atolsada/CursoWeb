@@ -1,0 +1,42 @@
+/* reset */
+
+*{
+    box-sizing: border-box; /* [Lo más importante en el reseteo, ponedlo siempre] */
+}
+
+body{
+    margin: 5%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/* Layout */
+
+p{
+    width: calc(94/4%);
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 25%;
+    float: left; /* [ya lo veremos] */
+    padding: 1.5rem;  
+}
+p:not(p:last-child){ /* se llama patrón esta forma de línea, que al parrafo el ultimo hijo no le afecte eso */
+    margin-right: 2%;
+}
+
+
+/* p:first-child {
+    border-left: 1px solid;
+} */
+p:nth-child(odd){ /* el odd para impares y even para pares */
+    background-color: aquamarine;
+    border: 1px solid crimson;
+}
+p:nth-child(even){
+    background-color: cadetblue;
+    border: 1px solid cornflowerblue; /* tamaño, estilo, color */
+}
