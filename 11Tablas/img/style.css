@@ -11,3 +11,7 @@ td{
     background-color: cadetblue;
     color: blue;
 }
+
+table.destinos td:after{ /* para añadir % en los datos de la tabla con td */
+    content: "%";
+}
