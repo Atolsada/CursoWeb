@@ -1,0 +1,17 @@
+body{
+    margin: 2rem 3rem;
+}
+
+figure{
+    margin:0; /* para quitar el margen que se autoaplica al ser un figure */
+    /* height: 200px; no se pone height por que no lo define */
+    width: 30%; /* Se pone en % */
+    max-width: 800px; /* Siempre en píxeles - se pone para que no se deforme demasiado, sobretodo haciendo zoom */
+    border: 1px solid;
+}
+
+img{ /* una imágen es un elemento inline (es como una letra y tiene 3 bandas de cuerpo y exteriores ej. a - p - t) */
+    width: 100%;
+    /* height: 100%; se elimina por lo escrito arriba */
+    display: block;
+}
