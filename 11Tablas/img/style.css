@@ -1,0 +1,13 @@
+th, td{
+    padding: 0.8rem 2rem; /* si ponemos 2 valores entiende que el primero es arriba/abajo y el segundo izq/der */
+}
+
+th{
+    background-color: burlywood;
+    color: brown;
+}
+
+td{
+    background-color: cadetblue;
+    color: blue;
+}
