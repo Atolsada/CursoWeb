@@ -11,7 +11,21 @@ td{
     background-color: cadetblue;
     color: blue;
 }
-
-table.destinos td:after{ /* para añadir % en los datos de la tabla con td */
+table.destinos{ 
+  /*   border-collapse: collapse; para que colapsen las celdas */
+    /* border-spacing: 1rem; para que tenga espacio entre las celdas de 1rem */
+    /* empty-cells: hide/show; para que aparezca o desaparezca una empty cell */
+}
+table.destinos td:after{ 
     content: "%";
 }
+
+table.destinos4 td:after{ 
+    content: "%";
+}
+/* Colores a la tercera tabla par e impar */
+table.destinos4 tr:nth-child(odd) td{
+    background-color: aquamarine
+}
+
+
