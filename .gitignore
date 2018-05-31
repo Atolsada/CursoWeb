@@ -1,3 +1,8 @@
+#Ficheros multimedia la # es para poner un comentario, esto está puesto para no subir videos a GitHub
+*.webm
+*.mp4
+*.flv
+
 # Logs
 logs
 *.log
